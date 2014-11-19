@@ -2,38 +2,8 @@
 import random
 from functools import reduce
 
+from dog_list import DOGS
 
-DOGS = \
-"""
-Af-ghan Hound
-Bass-et Hound
-Bea-gle
-Bor-der Col-lie
-Bost-on Ter-ri-er
-Bul-ldog
-Bull-mas-tiff
-Chi-hua-hua
-Cock-er Span-iel
-Dach-sund
-Deer-hound
-Do-ber-mann
-Fox Ter-ri-er
-Ger-man Shep-herd
-Gol-den Re-triev-er
-Great Dane
-Grey-hound
-Har-ri-er
-Hus-ky
-I-rish Set-ter
-Lab-ra-doo-dle
-Lab-ra-dor Re-triev-er
-Mal-tese
-Pit Bull
-Poo-dle
-Saint Ber-nard
-Shi-tzu
-Tea-cup Poo-dle
-"""
 
 def rand_elem(indexable):
     """return an element at random from an indexable collection"""
